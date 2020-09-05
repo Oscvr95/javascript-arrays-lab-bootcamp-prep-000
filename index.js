@@ -26,10 +26,10 @@ function destructivelyRemoveFirstKitten(name) {
 
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
-function appendKitten(name) {
-  kittens.concat(name)
-}
 
 function appendKitten(name) {
-  return Array.prototype.slice.call(name)
-}
+  let slice = Functionprototype.call.bind(kittens)
+    return slice(arguments)
+  }
+  
+
