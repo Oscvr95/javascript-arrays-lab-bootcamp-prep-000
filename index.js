@@ -28,7 +28,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 
 function appendKitten(name) {
-  kittens.concat(name)
+  
   let newKittens = kittens.concat(name)
   return newKittens
   }
