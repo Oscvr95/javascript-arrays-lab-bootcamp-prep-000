@@ -28,6 +28,5 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 
 function appendKitten(name) {
-  let slice = Functionprototype.call.bind(kittens)
-    return slice(arguments)
+  newKittens = kitten.concat(name)
   }
