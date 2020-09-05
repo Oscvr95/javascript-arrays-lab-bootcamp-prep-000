@@ -28,5 +28,5 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 
 function appendKitten(name) {
-  newKittens = kitten.concat(name)
+  return newKittens = kitten.concat(name)
   }
