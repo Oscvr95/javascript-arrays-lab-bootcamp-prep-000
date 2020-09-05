@@ -31,7 +31,5 @@ function appendKitten(name) {
 }
 
 function appendKitten(name) {
-  function list() {
   return Array.prototype.slice.call(name)
-}
 }
