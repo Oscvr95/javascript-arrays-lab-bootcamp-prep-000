@@ -29,3 +29,9 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 function appendKitten(name) {
   kittens.concat(name)
 }
+
+function appendKitten(name) {
+  function list() {
+  return Array.prototype.slice.call(name)
+}
+}
