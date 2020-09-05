@@ -31,3 +31,10 @@ function appendKitten(name) {
   let newKittens = kittens.concat(name)
   return newKittens
   }
+  
+var kittens = ["Milo", "Otis", "Garfield"] //define your array here
+
+function prependKitten(name) {
+  let newKittens = kittens.slice(0,2)
+  return newKittens
+}
