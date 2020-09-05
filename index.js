@@ -35,6 +35,6 @@ function appendKitten(name) {
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function prependKitten(name) {
-  let newKittens = kittens.slice(2)
+  let newKittens = [name...kittens]
   return newKittens
 }
