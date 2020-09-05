@@ -38,3 +38,9 @@ function prependKitten(name) {
   let newKittens = [name, ...kittens]
   return newKittens
 }
+
+var kittens = ["Milo", "Otis", "Garfield"] //define your array here
+
+function removeLastKitten() {
+  kittens = kittens.slice(0, kittens.length - 1)
+}
