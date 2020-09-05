@@ -35,6 +35,6 @@ function appendKitten(name) {
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function prependKitten(name) {
-  let newKittens = [kittens[0].unshift(name)]
+  let newKittens = kittens[0].unshift(name)
   return newKittens
 }
