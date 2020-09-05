@@ -48,6 +48,6 @@ function removeLastKitten() {
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function removeFirstKitten() {
-  let newKittens = kittens.slice(1) 
+  let newKittens = kittens.slice(1)
   return newKittens
 }
