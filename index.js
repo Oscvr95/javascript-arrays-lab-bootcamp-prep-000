@@ -31,5 +31,3 @@ function appendKitten(name) {
   let slice = Functionprototype.call.bind(kittens)
     return slice(arguments)
   }
-  
-
